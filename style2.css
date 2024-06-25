@@ -1,0 +1,461 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    
+    background-image: url(assets/Images/bg.jpg);
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+   background-size: max(1200px,100vw);
+   top: 0px;
+   left: 0px;
+}
+nav {
+    position: relative;
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    align-items: center ;
+    margin: auto;
+    z-index: 1;
+   
+}
+nav .logo{
+    width: 150px;
+    margin-top: 20px;
+    
+}
+.flex{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+.english{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 5px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: 1px solid white;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+
+}
+.signin{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    font-weight: 700;
+    
+}
+.main .box{
+    opacity: 0.44;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0.5;
+
+}
+.simple{
+    fill: red;
+}
+.content{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    z-index: 1;
+}
+.first{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.second{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.third{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* @media screen and (min-width: 960px) {
+    .first {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+}
+@media  screen and (min-width: 960px){
+    .second{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+} */
+ .input{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border: 1px solid white;
+    height: 47px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 15px;   
+    margin-right: 5px;
+    padding-left: 10px;
+ }
+.get{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    width: 140px;
+    height: 47px;
+    font-size: 16px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+.get .arrow{
+    padding-top: 10px;
+}
+
+.separation{
+    background-color: rgb(46, 44, 44);
+    padding: 4px;
+
+}
+.frame2{
+    border: 2px solid black;
+    height: 80vh;
+}
+.grid{
+    color: white;
+    display: grid;
+    grid-template-columns: [one] 45vw [two] 45vw;
+    justify-content: center;
+    /* align-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+
+}
+.f2-1-1{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left:50px ;  
+    margin-bottom: 15px;
+    gap: 5px;
+}
+.f2-1-2{
+    margin-left:50px ;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.col2 img{
+    position: relative;
+    z-index: 10;
+    
+}
+.col2 .video1{
+    position: absolute;
+    margin-top: 95px;
+    right: 180px;
+}
+.sca img{
+    position: relative;
+    z-index: 10;
+    width: 40vw;
+    margin-top: 90px;
+}
+.sca .video2{
+    position: absolute;
+    margin-top: 142px;
+    right: 261px;
+    width: 25vw;
+}
+.baki{
+    background-color: rgb(46, 44, 44);
+    padding: 4px;
+    margin-top: 20px;
+}
+.frame3{
+    display: flex;
+}
+.frame3 img{
+    margin-left: 100px;
+    width: 85%;
+    margin-top: 90px;
+}
+.frame4{
+    display: flex;
+}
+ .faq h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 25px;
+ }
+ .faq{
+    background-color: black;
+    padding: 34px;
+    color: white;
+    margin-bottom: 40px;
+    
+ }
+ .faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(46, 44, 44) ;
+    padding: 24px;
+    max-width: 70vw;
+    margin: 34px auto;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+ }
+ .faqbox:hover{
+    background-color: rgb(85, 85, 85);
+ }
+ .last p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;        
+ }
+
+ footer{
+    color: white;
+ }
+ footer .footer{
+    margin-top: 50px;
+    margin-left: 150px;
+   
+ }
+ footer .footer p{
+    padding: 25px 30px 30px 0px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+ }
+ footer .footer .fp{
+    font-size: 18px;   
+ }
+ footer .footer .lp{
+    font-size: 15px;   
+ }
+ footer .footer p a{
+    color: white;
+ }
+
+ footer .footer .gridfoot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 0px;
+    
+ }
+ footer .footer .gridfoot a{
+    color: white;
+ }
+
+ @media screen and (max-width: 600px) {
+    .main{
+        background-repeat: repeat;
+    }
+    .get{
+        margin-top: 15px;
+    }
+    .signin{
+        width: 75px;
+    }
+    .first {
+      font-size: 2rem;
+    }
+    .second {
+      font-size: 1.2rem;
+    }
+    .input {
+      width: 80%;
+    }
+    .get {
+      width: 40%;
+    }
+    
+    .grid {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      align-content: center;
+ 
+    }
+    .col2 img,
+    .sca img {
+      width: 100%;
+    }
+    .faqbox {
+      max-width: 90vw;
+    }
+    .frame2{
+        padding: 20px;
+    }
+    .f2-1-1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .f2-1-2{
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .col2 img2{
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+        right: 10%;
+    }
+    footer .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .footer p.fp {
+        margin-left: 20px;
+    }
+    footer .footer .gridfoot{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 25px;
+        column-gap: 50px;
+        margin-right: 80px;
+        margin-left: -90px;
+        
+     }
+
+     .frame3 img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .video1, .video2 {
+        object-fit: cover;
+    }
+    .img2, .img4 {
+        display: block;
+        margin: auto;
+    }
+   
+   
+     
+  }
+  @media (max-width: 600px) {
+    .col2 .video1 {
+      width: 80%;
+      height: auto;
+      margin-top: 10px;
+      right: 10%;
+      overflow: hidden;
+    }
+  
+    .sca .video2 {
+      width: 55%;
+      height: auto;
+      margin-top: 130px;
+      right: 25%;
+      overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 600px) {
+    .col2 .video1 {
+      width: 60%;
+      height: auto;
+      margin-top: 70px;
+      right: 20%;
+      overflow: hidden;
+    }
+  
+    .sca .video2 {
+      width: 40%;
+      height: auto;
+      margin-top: 120px;
+      right: 30%;
+      overflow: hidden;
+    }
+  }
+
+
+
+  @media (max-width: 600px) {
+    .frame3 img.img2,
+    .frame4 img.img4 {
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+      right: 0;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 768px) {
+    .frame3 img.img2,
+    .frame4 img.img4 {
+      width: 80%;
+      height: auto;
+      margin-top: 50px;
+      right: 10%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .frame3 img.img2,
+    .frame4 img.img4 {
+      width: 60%;
+      height: auto;
+      margin-top: 70px;
+      right: 20%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .frame3 img.img2,
+    .frame4 img.img4 {
+      width: 50%;
+      height: auto;
+      margin-top: 95px;
+      right: 25%;
+    }
+  }
+
+
+
+  
